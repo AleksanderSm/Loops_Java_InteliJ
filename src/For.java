@@ -1,8 +1,8 @@
 public class For {
     public static void main(String[] args) {
-
-        for (int i=0; i<10; i++) {
-            System.out.println("Olek jest super");
+        String[] cats=new String[]{"Bonifacy","Garfield", "Klakier","Pussy" };
+        for (int i=0; i<4; i++) {
+            System.out.println(cats[i]);
         }
     }
 }
